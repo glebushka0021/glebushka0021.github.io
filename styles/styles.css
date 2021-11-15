@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cream-bg {
+  background-color: #f9f6f1;
+}
+
+.gray-bg {
+  background-color: gray;
+}
+
+.video-pad{
+  padding-top: 70px;
+  padding-bottom: 40px;
+}
+
+.nav__content {
+  max-width: 1140px;
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1140px !important;
+  }
+}
+
+.hero {
+  min-height: 400px;
+}
+
+.accent-btn {
+  background-color: #d7b399 !important;
+  color: #fff !important;
+  font-weight: 300 !important;
+  padding: 15px 20px !important;
+}
+
+.hero img {
+  width: 566px;
+  object-fit: contain;
+}
+
+.carousel-item::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.carousel-control-prev-icon {
+  transform: scaleX(-1);
+  background-image: url("../assets/icons/next.svg") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("../assets/icons/next.svg") !important;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  opacity: 1 !important;
+}
